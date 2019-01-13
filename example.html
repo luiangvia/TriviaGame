@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic jQuery Dump</title>
+<style>
+  .fancy{
+      font-size: 100px;
+      color: green;
+    }
+</style>
+  <!-- Added link to the jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <div id="empty-div"></div>
+
+  <script type="text/javascript">
+
+    $("#empty-div").html("<h1>Hello friends!</h1>");
+    var newDiv = $("<div>");
+    newDiv.text("A pleasure to meet you!");
+    $("#empty-div").append(newDiv);
+    newDiv.attr('class', 'fancy');
+    // If we needed each line to be its own div, we could just as easily create a new div.
+  
+  
+
+    // NOTICE THE DIFFERENCE
+    // ---------------------
+    // $("#empty-div")   <-- FIND a DOM node with the ID empty-div
+    // $("<div>")        <-- CREATE a new DIV
+
+    // We can then  append it to the other div using the same ".append" method.
+ 
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background-image: url(../images/wall.jpg);
+}
+
+div {
+    margin-bottom: 50px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1em;
+}
+.container{
+
+}
+.greeting {
+    opacity: 0.5;
+    background-color:white;
+    margin: 100px;
+    text-align: center;
+}
+.greeting:Hover{
+    opacity: 1;
+}
+.officepic {
+    align-content: center;
+    width: 300px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.greetingtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+.classbutton{
+    background: blue;
+}
+.card {
+    background: blue;
+    margin: 50px;
+    text-align: center;
+}
+#timer{
+    color:red;
+}
+#question_div{
+    color:white;
+}
+#choices_div{
+color: orange;
+
+}
+
+.correct{
+    text-transform: capitalize;
+    color:orange;
+}
+.incorrect {
+    text-transform: capitalize;
+    color:red;
+}
+
+#pic{
+
+}
+
+
+
