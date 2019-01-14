@@ -124,7 +124,7 @@ font-size: 2en;
 
 button{
     padding:10px;
-    background-color: red;
+    background-color:blue;
     border: 4px solid white;
     color: white;
     margin: 20px;
@@ -136,6 +136,6 @@ button{
 }
 
 button:Hover{
-    background-color: black;
+    background-color: red;
   color: white;
 }
