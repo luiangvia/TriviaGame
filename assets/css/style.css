@@ -1,5 +1,9 @@
 body {
     background-image: url(../images/wall.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 div{
 font-size: 2en;
@@ -138,4 +142,13 @@ button{
 button:Hover{
     background-color: red;
   color: white;
+}
+.result{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color:red;
+    background:white;
+    font-size: 2em;
+    margin: 0px 250px 20px 250px;
+    border-radius: 25px; 
 }

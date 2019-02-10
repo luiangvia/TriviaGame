@@ -146,10 +146,13 @@ $('#choices_div').on('click', 'button', function(e) {
 var userPick = $(this).data("id"),
     ThisThing = Trivia || $(window).trivia(),
     index = ThisThing.questions[ThisThing.current].correct,
-    correct = ThisThing.questions[ThisThing.current].choices[index];
+    correct = ThisThing.questions[ThisThing.current].choices[index]
+    
+
 
 if (userPick !== index) {
     $('#choices_div').text("Wrong Answer! The correct answer was: " + correct);
+    //$('#pic').text("<img src=" + images + ">");//you are here
     ThisThing.answer(false);
 } else {
     $('#choices_div').text("Correct!!! The correct answer was: " + correct);
